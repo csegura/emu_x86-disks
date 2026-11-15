@@ -3,7 +3,7 @@
 Disk images that are ready to use with [emu_x86](https://github.com/csegura/emu_x86), an IBM PC/XT and 386 PC emulator for the
 browser and Linux. Every image here is free software that may be shared: [FreeDOS](https://www.freedos.org/) 1.4.
 
-**[Boot FreeDOS in your browser](https://csegura.github.io/emu_x86/?machine=386&hdd=https://csegura.github.io/emu_x86-disks/freedos-hd.img)**
+**[Boot FreeDOS in your browser](https://blog.romheat.net/emu_x86/?machine=386&hdd=https://blog.romheat.net/emu_x86-disks/freedos-hd.img)**
 
 | Image | Size | Machine | What it is |
 | --- | --- | --- | --- |
@@ -13,7 +13,7 @@ browser and Linux. Every image here is free software that may be shared: [FreeDO
 ## How to use them
 
 - **In the browser:** open the emulator page, choose **386**, and in the Mount menu of **C:** use **From URL...** with
-  `https://csegura.github.io/emu_x86-disks/freedos-hd.img`, or load the downloaded file with **Load file**.
+  `https://blog.romheat.net/emu_x86-disks/freedos-hd.img`, or load the downloaded file with **Load file**.
 - **With `make serve`:** put `freedos-hd.img` in `disks/hd/` and `freedos-boot.img` in `disks/floppy/` of your emu_x86 folder.
 - **On Linux:** `build/host/emu_386 --window -b src/bios/seabios.bin -v src/bios/vgabios.bin -d freedos-hd.img`.
 
