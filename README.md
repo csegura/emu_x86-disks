@@ -3,7 +3,7 @@
 Disk images that are ready to use with [emu_x86](https://github.com/csegura/emu_x86), an IBM PC/XT and 386 PC emulator for the
 browser and Linux. Every image here is free software that may be shared: [FreeDOS](https://www.freedos.org/) 1.4.
 
-**[Boot FreeDOS in your browser](https://blog.romheat.net/emu_x86/?machine=386&hdd=https://blog.romheat.net/emu_x86-disks/freedos-hd.img)**
+**[Boot FreeDOS in your browser](https://emux86.romheat.net/?machine=386&hdd=https://blog.romheat.net/emu_x86-disks/freedos-hd.img)**
 
 | Image | Size | Machine | What it is |
 | --- | --- | --- | --- |
